@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arabic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AcivityA"></activity>
+        <activity android:name=".ActivityAIN"></activity>
+        <activity android:name=".ActivityB"></activity>
+        <activity android:name=".ActivityD"></activity>
+        <activity android:name=".ActivityC"></activity>
+        <activity android:name=".ActivityF"></activity>
+        <activity android:name=".ActivityGH"></activity>
+        <activity android:name=".ActivityH"></activity>
+        <activity android:name=".ActivityHH"></activity>
+        <activity android:name=".ActivityJ"></activity>
+        <activity android:name=".ActivityK"></activity>
+        <activity android:name=".ActivityKH"></activity>
+        <activity android:name=".ActivityKK"></activity>
+        <activity android:name=".ActivityL"></activity>
+        <activity android:name=".ActivityM"></activity>
+        <activity android:name=".ActivityN"></activity>
+        <activity android:name=".ActivityR"></activity>
+        <activity android:name=".ActivityS"></activity>
+        <activity android:name=".ActivitySH"></activity>
+        <activity android:name=".ActivitySS"></activity>
+        <activity android:name=".ActivityTA"></activity>
+        <activity android:name=".ActivityTH"></activity>
+        <activity android:name=".ActivityTHA"></activity>
+        <activity android:name=".ActivityTHD"></activity>
+        <activity android:name=".ActivityTHH"></activity>
+        <activity android:name=".ActivityW"></activity>
+        <activity android:name=".ActivityY"></activity>
+        <activity android:name=".ActivityZ"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
